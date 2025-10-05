@@ -11,10 +11,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <Navbar />
-        <main className="container">{children}</main>
-        <footer className="container footer">
-          <p>© {new Date().getFullYear()} Kevin Rodriguez</p>
-          <p>
+        <main className="container py-8">{children}</main>
+        <footer className="container footer flex items-center justify-between py-6">
+          <p className="opacity-80">© {new Date().getFullYear()} Kevin Rodriguez</p>
+          <p className="flex gap-4">
             <a href="https://www.linkedin.com/in/kevin-rodriguez-384363330/" >LinkedIn</a> 
             <a href="https://github.com/KROD333" >GitHub</a>
           </p>
