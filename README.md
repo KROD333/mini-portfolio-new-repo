@@ -1,18 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# comp2112-Assignment1 - Mini Portfolio
 
-## Getting Started
+This project involves a React/Next.js w application that serves as a portfolio showcasing my skills, learning, and work to future employers.
 
-First, run the development server:
+Features of the web application includes:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Five separate pages: Home, About, Projects, Skills, Contact)
+- A Navbar with Next.js Links to the pages.
+- A shared footer with links to my LinkedIn & GitHub pages.
+- A contact form that shows values and redirects to the About page.
+
+You can visit the live site at: https://mini-portfolio-new-repo.vercel.app/
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
