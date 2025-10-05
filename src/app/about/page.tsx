@@ -11,13 +11,11 @@ export default function About() {
         </div>
         <div>
           <h1>About Me</h1>
-          <p className="opacity-90">My name is Kevin, a web-design student at Georgian College. I'm eager to learn and grow in the field of web development. 
-            I've learned and applied a multitude of skills and techniques to web-development that I hope to apply towards future personal and/or professional projects. 
-              The journey has just begun, and I'm curious to see where it takes me.</p>
+          <p className="opacity-90">My name is Kevin, a web-design student at Georgian College. I&apos;m eager to learn and grow in the field of web development. 
+            I&apos;ve learned and applied a multitude of skills and techniques to web-development that I hope to apply towards future personal and/or professional projects. 
+              The journey has just begun, and I&apos;m curious to see where it takes me.</p>
         </div>
       </div>
     </section>
   );
 }
-
-
